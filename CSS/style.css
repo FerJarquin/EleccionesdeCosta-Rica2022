@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background: #f9f9f7 ;
+    font-size:11px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    color: #8c8c73;
+    line-height:18px;
+}
+
+a{
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 14px;
+    text-align: justify;
+}
+
+img.picB{
+    position: relative;
+    top: -2px;
+    width: 146px;
+    height: 146px;
+    padding: 7px;
+}
+
+img.picC{
+    position: relative;
+    top: -2px;
+    width: 146px;
+    height: 120px;
+    padding: 7px;
+}
+
+img.floatleft
+{
+    float: left;
+    margin: 0px 14px 3px 0px;
+}
+
+#outer{
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background :#fff;
+    border: initial;
+    overflow: overlay;
+}
+header{
+    max-width: 100%;
+    height: 150px;
+}
+
+header #splash
+{
+    float: right;
+    width: 30%;
+    
+    height: 140px;
+    
+}
+
+
+
+header #logo h1
+{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+
+}
+
+
+
+header #logo
+{
+    float: left;
+    background: #f60000;
+    width: 70%;
+    height: 140px;
+    color: #fff;
+    padding-top: 60px;
+    
+
+    
+}
+
+#principalcontent
+{
+    color: #fff;
+    width: 100%
+}
+
+#primarycontent
+{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+td,th {
+    border: 1px solid #0019f6;
+    text-align: center;
+}
+
+
+#primarycontent H3
+{
+    font-size: 15px;
+    line-height: 25px;
+    color: #656551;
+    padding: 0px 0px 10px 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#primarycontent .post
+{
+    margin-bottom: 30px;
+}
+
+#primarycontent .post .content
+{
+    margin-bottom: 20px;
+    padding: 0px 15px 0px 15px;
+    text-align: justify;
+    margin-left: 5px;
+
+}
+
+#primarycontent .post .footer
+{
+    background-color:#0019f6;
+    height: 34px;
+    text-align: right;
+    margin-top: 5px;
+    
+}
+
+#primarycontent .post .footer ul
+{
+    list-style: none;
+    
+}
+
+#primarycontent .post .footer ul li
+{
+    display: inline;
+    line-height: 14px;
+    padding-left: 17px;
+    margin-left: 25px ;
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+    
+    
+}
+
+footer{
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+    padding-top: 15px;
+    background-color: #0019f6;
+}
+

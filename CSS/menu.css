@@ -1,0 +1,29 @@
+nav{
+    display:flex;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #001086;
+    
+}
+
+#container .principal{
+    float: left;
+    color: white;
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
+
+#container a:hover{
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    background: #ff0000;
+
+}
+
+#container a.last{
+    border-right: 0px;
+}
+
